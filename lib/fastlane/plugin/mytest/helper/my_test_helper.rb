@@ -2,7 +2,7 @@ module Fastlane
   module Helper
     class MyTestHelper
       # class methods that you define here become available in your action
-      # as `Helper::IxguardHelper.your_method`
+      # as `Helper::MyTestHelper.your_method`
       #
       def self.show_message
         UI.message("Hello from the my_test plugin helper!")

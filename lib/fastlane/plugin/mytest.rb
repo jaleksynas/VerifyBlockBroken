@@ -11,6 +11,6 @@ end
 
 # By default we want to import all available actions and helpers
 # A plugin can contain any number of actions and plugins
-Fastlane::MyAction.all_classes.each do |current|
+Fastlane::MyTest.all_classes.each do |current|
   require current
 end
