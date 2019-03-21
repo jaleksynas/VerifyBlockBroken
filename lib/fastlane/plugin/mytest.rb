@@ -1,7 +1,7 @@
-require 'fastlane/plugin/myaction/version'
+require 'fastlane/plugin/mytest/version'
 
 module Fastlane
-  module MyAction
+  module MyTest
     # Return all .rb files inside the "actions" and "helper" directory
     def self.all_classes
       Dir[File.expand_path('**/{actions,helper}/*.rb', File.dirname(__FILE__))]

@@ -1,12 +1,12 @@
 module Fastlane
   module Actions
-    class MyActionAction < Action
+    class MyTestAction < Action
       def self.run(params)
         UI.important("The value is: #{params[:test_key]}")
       end
 
       def self.description
-        "MyAction build plugin"
+        "MyTest build plugin"
       end
 
       def self.authors
@@ -19,7 +19,7 @@ module Fastlane
 
       def self.details
         # Optional:
-        "MyAction build plugin"
+        "MyTest build plugin"
       end
 
       def self.available_options

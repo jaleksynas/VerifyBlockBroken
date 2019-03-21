@@ -2,11 +2,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fastlane/plugin/myaction/version'
+require 'fastlane/plugin/mytest/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-myaction'
-  spec.version       = Fastlane::MyAction::VERSION
+  spec.name          = 'fastlane-plugin-mytest'
+  spec.version       = Fastlane::MyTest::VERSION
   spec.author        = 'Jacob Aleksynas'
   spec.email         = 'aleksynas@gmail.com'
 
