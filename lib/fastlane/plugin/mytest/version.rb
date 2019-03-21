@@ -1,5 +1,5 @@
 module Fastlane
-  module MyAction
-    VERSION = "0.1.4"
+  module MyTest
+    VERSION = "0.0.1"
   end
 end
