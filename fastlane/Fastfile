@@ -1,0 +1,9 @@
+lane :test do
+  my_action(test_key: "aaaaaa") #works
+  my_action(test_key: "bbbbb") #fails validation
+end
+
+lane :test_env do
+  ENV["TEST_KEY"] = "cccc"
+  my_action # Ruh-roh does not validate.
+end
